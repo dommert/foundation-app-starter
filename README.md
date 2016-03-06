@@ -1,2 +1,3 @@
-# foundation-app-starter
-Starting point for foundation apps 
+# zf-StarterApp
+Starter app for foundation for apps
+
