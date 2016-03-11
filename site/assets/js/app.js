@@ -1,3 +1,4 @@
+
 (function() {
   'use strict';
 
@@ -20,15 +21,16 @@
     $urlProvider.otherwise('/');
 
     $locationProvider.html5Mode({
-      enabled:false,
+      enabled: false,
       requireBase: false
     });
 
     $locationProvider.hashPrefix('!');
   }
+  
 
   function run() {
     FastClick.attach(document.body);
   }
-
+    
 })();
