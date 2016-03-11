@@ -1,31 +1,29 @@
-
 <!doctype html>
 <html lang="en" ng-app="application">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation for Apps</title>
-   
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/zurb/foundation-apps-1.2.0.css">
-    <!--<script src="./assets/js/foundation.js"></script>-->
-    <!-- <script src="./assets/js/templates.js"></script> -->
-    <script src="./assets/js/routes.js"></script>
-    <script src="./assets/js/app.js"></script>
-    <script src="./assets/js/angular.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script> -->
-    <!--<script src="http://cdn.jsdelivr.net/zurb/foundation-apps-1.2.0.js"></script>-->
-    <script src="//cdn.jsdelivr.net/zurb/foundation-apps-templates-1.2.0.js"></script>
+    <title>Dommert</title>
+    <link href="assets/css/app.css" rel="stylesheet" type="text/css">
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/routes.js"></script>
+    <script src="assets/js/angular.js"></script>
   </head>
+
+  <style>
+    .menu-bar {margin-bottom: 0;}
+    #sub-nav, .messages {border-right: 1px solid #eee;}
+    .medium-grid-content {padding:1rem !important;}
+  </style>
+
   <body>
     <div class="grid-frame vertical">
-      <div class="grid-content shrink" style="padding: 0;">
-        <ul class="primary condense menu-bar">
-          <li><a><strong>Foundation for Apps</strong></a></li>
-        </ul>
+      <div class="primary title-bar">
+        <div class="center title"><a ui-sref="frontpage">Dommert</a></div>
+        <span class="right"><a ui-sref="settings">Settings</a></span>
       </div>
-      <div ui-view class="grid-content">
-        <a ui-sref="home">Home</a>
-        <a ui-sref="about">About</a>
+      <div ui-view class="grid-block">
+
       </div>
     </div>
   </body>
