@@ -564,25 +564,25 @@ img {
     margin-top: -2px;
     margin-right: 0.25rem; }
     a > .iconic * {
-      fill: #00558b;
-      stroke: #00558b; }
+      fill: #2199E8;
+      stroke: #2199E8; }
       a > .iconic *.iconic-property-accent {
-        fill: #00558b;
-        stroke: #00558b; }
+        fill: #2199E8;
+        stroke: #2199E8; }
 
 .iconic * {
-  fill: #00558b;
-  stroke: #00558b; }
+  fill: #2199E8;
+  stroke: #2199E8; }
   .iconic *.iconic-property-accent {
-    fill: #00558b;
-    stroke: #00558b; }
+    fill: #2199E8;
+    stroke: #2199E8; }
 
 .iconic-color-primary * {
-  fill: #00558b;
-  stroke: #00558b; }
+  fill: #2199E8;
+  stroke: #2199E8; }
   .iconic-color-primary *.iconic-property-accent {
-    fill: #00558b;
-    stroke: #00558b; }
+    fill: #2199E8;
+    stroke: #2199E8; }
 
 .iconic-color-success * {
   fill: #43AC6A;
@@ -768,15 +768,15 @@ img {
           bottom: -12px;
           border-top-color: rgba(0, 0, 0, 0.15); } }
   .action-sheet.primary {
-    background: #00558b;
+    background: #2199E8;
     color: #fff;
     border: 0; }
     .action-sheet.primary::before {
       display: none; }
     .action-sheet.primary::before, .action-sheet.primary::after {
-      border-top-color: #00558b; }
+      border-top-color: #2199E8; }
     .action-sheet.primary.top::before, .action-sheet.primary.top::after {
-      border-bottom-color: #00558b; }
+      border-bottom-color: #2199E8; }
     .action-sheet.primary ul {
       margin: -1rem;
       margin-top: 0;
@@ -932,7 +932,7 @@ img {
       background-size: 100% 100%;
       width: 1.5em;
       height: 1.5em;
-      color: #00558b;
+      color: #2199E8;
       float: right;
       pointer-events: none;
       margin-top: -0.25em;
@@ -1062,7 +1062,7 @@ img {
   font-size: 0.9rem;
   display: inline-block;
   margin: 0 1rem 1rem 0;
-  background: #00558b;
+  background: #2199E8;
   color: #fff; }
   .button .iconic, button .iconic {
     width: 1em;
@@ -1166,21 +1166,21 @@ img {
         fill: #fff;
         stroke: #fff; }
   .button.hollow, button.hollow {
-    border: 1px solid #00558b;
+    border: 1px solid #2199E8;
     background: transparent;
-    color: #00558b; }
+    color: #2199E8; }
     .button.hollow:hover, button.hollow:hover {
       border-color: #008ee8;
       background: transparent;
       color: #008ee8; }
     .button.hollow[data-popup-toggle]::after, button.hollow[data-popup-toggle]::after {
-      border-top-color: #00558b; }
+      border-top-color: #2199E8; }
     .button.hollow .iconic *, button.hollow .iconic * {
-      fill: #00558b;
-      stroke: #00558b; }
+      fill: #2199E8;
+      stroke: #2199E8; }
       .button.hollow .iconic *.iconic-property-accent, button.hollow .iconic *.iconic-property-accent {
-        fill: #00558b;
-        stroke: #00558b; }
+        fill: #2199E8;
+        stroke: #2199E8; }
     .button.hollow:hover .iconic *, button.hollow:hover .iconic * {
       fill: #008ee8;
       stroke: #008ee8; }
@@ -1315,7 +1315,7 @@ img {
     margin-top: -2px; }
 
 .button-group.segmented, .button-group.segmented.secondary, .button-group.segmented.success, .button-group.segmented.warning, .button-group.segmented.alert {
-  border: 1px solid #00558b;
+  border: 1px solid #2199E8;
   transition-property: background color; }
   .button-group.segmented > li > input[type="radio"] {
     position: absolute;
@@ -1336,7 +1336,7 @@ img {
   .button-group > li {
     flex: 0 0 auto; }
   .button-group > li > a, .button-group > li > label {
-    background: #00558b;
+    background: #2199E8;
     color: #fff;
     border-color: #004876; }
     .button-group > li > a:hover, .button-group > li > label:hover {
@@ -1489,23 +1489,23 @@ img {
         fill: #fff;
         stroke: #fff; }
   .button-group.segmented {
-    border-color: #00558b; }
+    border-color: #2199E8; }
     .button-group.segmented > li > a, .button-group.segmented > li > label {
-      border-color: #00558b;
-      color: #00558b; }
+      border-color: #2199E8;
+      color: #2199E8; }
       .button-group.segmented > li > a:hover, .button-group.segmented > li > label:hover {
         background: rgba(0, 85, 139, 0.25);
-        color: #00558b; }
+        color: #2199E8; }
       .button-group.segmented > li > a .iconic *, .button-group.segmented > li > label .iconic * {
-        fill: #00558b;
-        stroke: #00558b; }
+        fill: #2199E8;
+        stroke: #2199E8; }
         .button-group.segmented > li > a .iconic *.iconic-property-accent, .button-group.segmented > li > label .iconic *.iconic-property-accent {
-          fill: #00558b;
-          stroke: #00558b; }
+          fill: #2199E8;
+          stroke: #2199E8; }
     .button-group.segmented > li.is-active > a, .button-group.segmented > li.is-active > a:hover,
     .button-group.segmented > li > input:checked + label,
     .button-group.segmented > li > input:checked + label:hover {
-      background: #00558b;
+      background: #2199E8;
       color: #fff; }
     .button-group.segmented > li.is-active > a .iconic *,
     .button-group.segmented > li > input:checked + label .iconic * {
@@ -1661,7 +1661,7 @@ img {
   .card.primary {
     border: 0;
     margin-bottom: 0.5rem;
-    background: #00558b;
+    background: #2199E8;
     color: #fff;
     border-radius: 4px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -1871,7 +1871,7 @@ input[type="range"] {
     outline: 0; }
   input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
-    background: #00558b;
+    background: #2199E8;
     width: 1.5rem;
     height: 1.5rem; }
   input[type="range"]::-moz-range-track {
@@ -1882,7 +1882,7 @@ input[type="range"] {
     cursor: pointer; }
   input[type="range"]::-moz-range-thumb {
     -moz-appearance: none;
-    background: #00558b;
+    background: #2199E8;
     width: 1.5rem;
     height: 1.5rem; }
   input[type="range"]::-ms-track {
@@ -1891,7 +1891,7 @@ input[type="range"] {
     background: #ccc;
     cursor: pointer; }
   input[type="range"]::-ms-thumb {
-    background: #00558b;
+    background: #2199E8;
     width: 1.5rem;
     height: 1.5rem; }
 
@@ -1902,7 +1902,7 @@ output {
 
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
-  background: #00558b; }
+  background: #2199E8; }
 
 progress, meter {
   -webkit-appearance: none;
@@ -1917,9 +1917,9 @@ progress, meter {
 progress::-webkit-progress-bar {
   background: #ccc; }
 progress::-webkit-progress-value {
-  background: #00558b; }
+  background: #2199E8; }
 progress::-moz-progress-bar {
-  background: #00558b; }
+  background: #2199E8; }
 progress.high::-webkit-progress-value {
   background: #43AC6A; }
 progress.high::-moz-progress-bar {
@@ -1944,7 +1944,7 @@ meter {
   meter::-webkit-meter-even-less-good-value {
     background: #F04124; }
   meter::-moz-meter-bar {
-    background: #00558b; }
+    background: #2199E8; }
   meter:-moz-meter-optimum::-moz-meter-bar {
     background: #43AC6A; }
   meter:-moz-meter-sub-optimum::-moz-meter-bar {
@@ -3145,7 +3145,7 @@ meter {
   padding: 1rem;
   border-bottom: 1px solid #ccc; }
   .title-bar.primary {
-    background: #00558b;
+    background: #2199E8;
     color: #fff;
     padding: 1rem;
     border-bottom: 1px solid #ccc; }
@@ -3187,11 +3187,11 @@ meter {
 .label {
   font-size: 0.8rem;
   padding: 0.33333rem 0.5rem;
-  background: #00558b;
+  background: #2199E8;
   border-radius: 0;
   color: #fff; }
   .label.primary {
-    background: #00558b;
+    background: #2199E8;
     border-radius: 0;
     color: #fff; }
   .label.success {
@@ -3223,11 +3223,11 @@ meter {
 .badge {
   font-size: 1em;
   padding: 0.1em 0.61em;
-  background: #00558b;
+  background: #2199E8;
   border-radius: 1000px;
   color: #fff; }
   .badge.primary {
-    background: #00558b;
+    background: #2199E8;
     border-radius: 1000px;
     color: #fff; }
   .badge.success {
@@ -3572,7 +3572,7 @@ meter {
     right: 1rem;
     top: 1rem; }
   .menu-bar.primary {
-    background: #00558b; }
+    background: #2199E8; }
     .menu-bar.primary a {
       color: #fff; }
       .menu-bar.primary a:hover {
@@ -4171,7 +4171,7 @@ meter {
   right: 1rem;
   transform: translateX(110%);
   top: 1rem;
-  background: #00558b;
+  background: #2199E8;
   padding: 1rem;
   border-radius: 4px; }
   @media only screen and (min-width: 0em) and (max-width: 39.9375rem) {
@@ -4408,7 +4408,7 @@ meter {
       z-index: 1;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); }
   .off-canvas.primary {
-    background: #00558b;
+    background: #2199E8;
     color: #fff; }
   .off-canvas.dark {
     background: #232323;
@@ -4443,7 +4443,7 @@ meter {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     border: 0; }
   .popup.primary {
-    background: #00558b;
+    background: #2199E8;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     border: 0; }
@@ -4497,9 +4497,9 @@ meter {
       transition: left 0.15s ease-out;
       border: 4px solid #ccc; }
   .switch input:checked + label {
-    background: #00558b; }
+    background: #2199E8; }
     .switch input:checked + label::after {
-      border-color: #00558b; }
+      border-color: #2199E8; }
 
 /*
   TABS
@@ -4609,7 +4609,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #00558b;
+  color: #2199E8;
   text-decoration: none;
   line-height: inherit; }
   a[ui-sref] {
