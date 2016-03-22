@@ -13,6 +13,7 @@ var foundationRoutes = [
 	{"name":"frontpage",
 	"url":"/",
 	"animationIn":"slideFromRight",
+	"animationOut":"slideFromLeft",
 	"path":"templates/frontpage.html"
 	}
 	]; 
