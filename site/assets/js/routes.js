@@ -1,6 +1,6 @@
 var foundationRoutes = [
 	{"name":"settings",
-	"url":"/settings-this-is-cool",
+	"url":"/settings",
 	"animationIn":"slideFromLeft",
 	"animationOut":"slideFromLeft",
 	"path":"templates/settings.html"
@@ -16,4 +16,9 @@ var foundationRoutes = [
 	"animationOut":"slideFromLeft",
 	"path":"templates/frontpage.html"
 	}
+	{"name":"about",
+	"url":"/about",
+	"animationIn":"slideFromRight",
+	"path":"templates/about.html"
+	},
 	]; 
