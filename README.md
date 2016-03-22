@@ -1,3 +1,9 @@
 # zf-StarterApp
-Starter app for foundation for apps
+
+Starter Kit for Foundation for Apps. 
+
+App contains frontpage, about, contact and routes. 
+
+
+
 
